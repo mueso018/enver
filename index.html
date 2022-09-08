@@ -1,126 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./adaptive_style.css" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <img src="bg_img_1.png" alt="" class="bg_gradient">
-    <img src="bg_img_2.png" alt="" class="bg_gradient">
-    <img src="bg_img_3.png" alt="" class="bg_gradient">
-    <img src="bg_img_4.png" alt="" class="bg_gradient">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="bg_img_1.png" alt="" class="bg_gradient" />
+    <img src="bg_img_2.png" alt="" class="bg_gradient" />
+    <img src="bg_img_3.png" alt="" class="bg_gradient" />
+    <img src="bg_img_4.png" alt="" class="bg_gradient" />
     <div class="conteiner">
+      <!-- burger start -->
 
-        <!-- navbar start -->
-        <div class="navbar">
-            <img src="Group 162475 (1).png" alt="" class="navbar__logo">
-            <ul class="navbar__list">
-                <li class="list_item"><a href="#">Home</a></li>
-                <li class="list_item"><a href="#">Services</a></li>
-                <li class="list_item"><a href="#">Our Brojekt</a></li>
-                <li class="list_item"><a href="#">About Us</a></li>
-            </ul>
-            <input type="text" class="navbar__input">
-        </div>
-        <!-- navbar end -->
- 
-        <!-- header start -->
-        <header>
-            <div class="header__block_left">
-                <h1 class="header__title_left">Build Your Awesome Platform</h1>
-                <p class="header__desc_left">Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</p>
-                <button class="header__btn">
-                    Our Services
-                    <img src="btn_icon.png" alt="" class="btn__icon">
-                </button>
-            </div>
-            <div class="header__block_right">
-                <img src="header_img.png" alt="header__img">
-                <img src="vector_1.png" alt="" class="vector" id="vector_1">
-                <img src="vector_2.png" alt="" class="vector" id="vector_2">
-                <img src="vector_3.png" alt="" class="vector" id="vector_3">
-                <img src="vector_4.png" alt="" class="vector" id="vector_4">
-            </div>
-        </header>
-
-        <div class="services">
-            <h2 class="services__title_main">The Service We Provide For You</h2>
-            <ul class="services__list">
-              <li class="services__item">
-                <img src="./service_icon_1.png" alt="" class="services__icon">
-                <h4 class="services__title">Development</h4>
-                <p class="services__desc">Create a platform with the best and coolest quality from us.</p>
-              </li>
-              <li class="services__item">
-                <img src="service_icon_2.png" alt="" class="services__icon">
-                <h4 class="services__title">UI/UX Designer</h4>
-                <p class="services__desc">We provide UI/UX Design services, and of course with the best quality</p>
-              </li>
-              <li class="services__item">
-                <img src="service_icon_3.png" alt="" class="services__icon">
-                <h4 class="services__title">Graphik Designer</h4>
-                <p class="services__desc">We provide Graphic Design services, with the best designers</p>
-              </li>
-              <li class="services__item">
-                <img src="service_icon_4.png" alt="" class="services__icon">
-                <h4 class="services__title">Motion Graphik</h4>
-                <p class="services__desc">Create a platform with the best and coolest quality from us.</p>
-              </li>
-              <li class="services__item">
-                <img src="service_icon_5.png" alt="" class="services__icon">
-                <h4 class="services__title">Photography</h4>
-                <p class="services__desc">We provide Photography services, and of course with the best quality</p>
-              </li>
-              <li class="services__item">
-                <img src="service_icon_6.png" alt="" class="services__icon">
-                <h4 class="services__title">Videography</h4>
-                <p class="services__desc">Create a platform with the best and coolest quality from us.</p>
-              </li>
-            </ul>
-        </div>
-
-        <!-- portofolio -->
-
-        <div class="portfolio">
-          <h2 class="portfolio__totle">
-            Our Awesome portofolio
-          </h2>
-          <ul class="portfolio__list">
-            <li class="portfolio__item">
-              <img src="./portfolio_img_1.png" alt="">
-            </li>
-            <li class="portfolio__item">
-              <img src="./portfolio_img_2.png" alt="">
-            </li>
-            <li class="portfolio__item">
-              <img src="./portfolio_img_3.png" alt="">
-            </li>
+      <div class="burger-menu">
+        <div class="burger-menu__content">
+          <img src="./cancel_btn.png" alt="" class="burger-menu__btn_close" />
+          <input type="text" class="burger-menu__input" />
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item"><a href="#">Home</a></li>
+            <li class="burger-menu__item"><a href="#">Services</a></li>
+            <li class="burger-menu__item"><a href="#">Our Brojekt</a></li>
+            <li class="burger-menu__item"><a href="#">About Us</a></li>
           </ul>
-          <img src="./carousel_icon.png" alt="" class="portfolio__icon">
-          <img src="./portfolio_toggle.png" alt="" class="portfolio__icon_second">
         </div>
+      </div>
 
-        <div class="info__block">
-          <h2 class="info__block_title">Contact us for the service you want to use</h2>
-          <button class="info__block_btn">Contact us</button>
+      <!-- burger end -->
+
+      <!-- navbar start -->
+      <div class="navbar">
+        <img src="Group 162475 (1).png" alt="" class="navbar__logo" />
+        <ul class="navbar__list">
+          <li class="list_item"><a href="#">Home</a></li>
+          <li class="list_item"><a href="#">Services</a></li>
+          <li class="list_item"><a href="#">Our Brojekt</a></li>
+          <li class="list_item"><a href="#">About Us</a></li>
+        </ul>
+        <input type="text" class="navbar__input" />
+        <img
+          src="./navbar_btn.png"
+          alt="navbar__btn_burger"
+          class="navbar__btn_burger"
+        />
+      </div>
+      <!-- navbar end -->
+
+      <!-- header start -->
+      <header>
+        <div class="header__block_left">
+          <h1 class="header__title_left">Build Your Awesome Platform</h1>
+          <p class="header__desc_left">
+            Enver studio is a digital studio that offers several services such
+            as UI/UX Design to developers, we will provide the best service for
+            those of you who use our services.
+          </p>
+          <button class="header__btn">
+            Our Services
+            <img src="btn_icon.png" alt="" class="btn__icon" />
+          </button>
         </div>
+        <div class="header__block_right">
+          <img src="header_img.png" alt="header__img" />
+          <img src="vector_1.png" alt="" class="vector" id="vector_1" />
+          <img src="vector_2.png" alt="" class="vector" id="vector_2" />
+          <img src="vector_3.png" alt="" class="vector" id="vector_3" />
+          <img src="vector_4.png" alt="" class="vector" id="vector_4" />
+        </div>
+      </header>
 
-        <footer>
-          <img src="./Group 162475 (1).png" alt="" class="foter__logo">
-          <ul class="foter__list">
-            <li class="foter__item">Support</li>
-            <li class="foter__item">Privacy Policy</li>
-            <li class="foter__item">Terms and Conditions</li>
-          </ul>
-          <p class="foter__info">© 2022 Enver, All Rights Reserved</p>
-        </footer>
+      <div class="services">
+        <h2 class="services__title_main">The Service We Provide For You</h2>
+        <ul class="services__list">
+          <li class="services__item">
+            <img src="./service_icon_1.png" alt="" class="services__icon" />
+            <h4 class="services__title">Development</h4>
+            <p class="services__desc">
+              Create a platform with the best and coolest quality from us.
+            </p>
+          </li>
+          <li class="services__item">
+            <img src="service_icon_2.png" alt="" class="services__icon" />
+            <h4 class="services__title">UI/UX Designer</h4>
+            <p class="services__desc">
+              We provide UI/UX Design services, and of course with the best
+              quality
+            </p>
+          </li>
+          <li class="services__item">
+            <img src="service_icon_3.png" alt="" class="services__icon" />
+            <h4 class="services__title">Graphik Designer</h4>
+            <p class="services__desc">
+              We provide Graphic Design services, with the best designers
+            </p>
+          </li>
+          <li class="services__item">
+            <img src="service_icon_4.png" alt="" class="services__icon" />
+            <h4 class="services__title">Motion Graphik</h4>
+            <p class="services__desc">
+              Create a platform with the best and coolest quality from us.
+            </p>
+          </li>
+          <li class="services__item">
+            <img src="service_icon_5.png" alt="" class="services__icon" />
+            <h4 class="services__title">Photography</h4>
+            <p class="services__desc">
+              We provide Photography services, and of course with the best
+              quality
+            </p>
+          </li>
+          <li class="services__item">
+            <img src="service_icon_6.png" alt="" class="services__icon" />
+            <h4 class="services__title">Videography</h4>
+            <p class="services__desc">
+              Create a platform with the best and coolest quality from us.
+            </p>
+          </li>
+        </ul>
+      </div>
 
+      <!-- portofolio -->
+
+      <div class="portfolio">
+        <h2 class="portfolio__totle">Our Awesome portofolio</h2>
+        <ul class="portfolio__list">
+          <li class="portfolio__item">
+            <img src="./portfolio_img_1.png" alt="" />
+          </li>
+          <li class="portfolio__item">
+            <img src="./portfolio_img_2.png" alt="" />
+          </li>
+          <li class="portfolio__item">
+            <img src="./portfolio_img_3.png" alt="" />
+          </li>
+        </ul>
+        <img src="./carousel_icon.png" alt="" class="portfolio__icon" />
+        <img
+          src="./portfolio_toggle.png"
+          alt=""
+          class="portfolio__icon_second"
+        />
+      </div>
+
+      <div class="info__block">
+        <h2 class="info__block_title">
+          Contact us for the service you want to use
+        </h2>
+        <button class="info__block_btn">Contact us</button>
+      </div>
+
+      <footer>
+        <img src="./Group 162475 (1).png" alt="" class="footer__logo" />
+        <ul class="footer__list">
+          <li class="footer__item">Support</li>
+          <li class="footer__item">Privacy Policy</li>
+          <li class="footer__item">Terms and Conditions</li>
+        </ul>
+        <p class="footer__info">© 2022 Enver, All Rights Reserved</p>
+      </footer>
     </div>
-</body>
+
+    <script>
+      let openBtn = document.querySelector(".navbar__btn_burger");
+      let closeBtn = document.querySelector(".burger-menu__btn_close");
+      let burgerMenu = document.querySelector(".burger-menu");
+
+      openBtn.addEventListener("click", () => {
+        burgerMenu.style.display = "block";
+      });
+
+      closeBtn.addEventListener("click", () => {
+        burgerMenu.style.display = "none";
+      });
+    </script>
+  </body>
 </html>
